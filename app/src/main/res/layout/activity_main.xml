@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_fjye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="翻页效果" />
+
+    <Button
+        android:id="@+id/btn_matrixeffect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matrix的多种平移，旋转，错切效果，包括Camera相关方法" />
+
+    <Button
+        android:id="@+id/btn_clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时钟圆圈" />
+
+    <Button
+        android:id="@+id/btn_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绘制阴影的view" />
+
+    <Button
+        android:id="@+id/btn_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义drawable,绘制一个圆角的矩形" />
+</LinearLayout>
